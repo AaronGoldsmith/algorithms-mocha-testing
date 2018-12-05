@@ -1,0 +1,26 @@
+{
+  "name": "algorithms-mocha-testing",
+  "version": "1.0.0",
+  "description": "a testing suite",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronGoldsmith/algorithms-mocha-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaronGoldsmith/algorithms-mocha-testing/issues"
+  },
+  "homepage": "https://github.com/AaronGoldsmith/algorithms-mocha-testing#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}

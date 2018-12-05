@@ -1,6 +1,7 @@
 var assert = require('assert');
 var chai = require('chai');
 var should = chai.should();
+import Word from "../Word";
 
 /*  begin tests */
 describe('Array functions', function ()
@@ -24,3 +25,12 @@ describe('Array functions', function ()
 		});
 	})
 });
+describe('Array functions', function (){
+		describe('detect if a string is a palindrome', function(){
+			it('should return true iff the word is same spelled forward as it is backwards',function(){
+				const passTests = ["A","AA","AAA","AAAA"];
+				const faillTests = ["AB","BBAB","RATE","CARE"];
+						})
+		})
+
+})
